@@ -1,0 +1,159 @@
+<div class="div">
+  <div class="div-2">
+    <img
+      loading="lazy"
+      srcset="..."
+      class="img"
+    />
+    <div class="div-3">MEN</div>
+    <div class="div-4">WOMEN</div>
+    <div class="div-5">KIDS</div>
+    <img
+      loading="lazy"
+      srcset="..."
+      class="img-2"
+    />
+    <img
+      loading="lazy"
+      srcset="..."
+      class="img-3"
+    />
+  </div>
+  <div class="div-6">Search for products, brands and more</div>
+  <div class="div-7">Login</div>
+  <div class="div-8">
+    Mobile Number
+    <span style="color: rgba(255, 87, 34, 1)">*</span>
+  </div>
+  <div class="div-9">
+    By continuing, I agree to the
+    <span style="font-weight: 700; color: rgba(255, 60, 111, 1)">
+      Terms of Use
+    </span>
+    &
+    <span style="font-weight: 700; color: rgba(255, 60, 111, 1)">
+      Privacy Policy
+    </span>
+  </div>
+  <div class="div-10">CONTINUE</div>
+  <div class="div-11">
+    Have trouble logging in?
+    <span style="font-weight: 700; color: rgba(255, 63, 108, 1)">Get help</span>
+  </div>
+</div>
+<style>
+  .div {
+    background-color: #fff;
+    display: flex;
+    max-width: 360px;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 45px 11px;
+  }
+  .div-2 {
+    display: flex;
+    padding-right: 8px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: #282c3f;
+    font-weight: 700;
+    white-space: nowrap;
+    line-height: 571%;
+  }
+  .img {
+    aspect-ratio: 1.47;
+    object-fit: auto;
+    object-position: center;
+    width: 53px;
+    align-self: stretch;
+  }
+  .div-3 {
+    font-family: Assistant, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-4 {
+    font-family: Assistant, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-5 {
+    font-family: Assistant, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .img-2 {
+    aspect-ratio: 0.78;
+    object-fit: auto;
+    object-position: center;
+    width: 17px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .img-3 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 22px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-6 {
+    justify-content: center;
+    align-items: start;
+    border-radius: 4px;
+    border: 1px solid #f5f5f6;
+    background-color: #f5f5f6;
+    margin-top: 22px;
+    color: #757575;
+    white-space: nowrap;
+    padding: 16px 60px 16px 13px;
+    font: 13px Assistant, sans-serif;
+  }
+  .div-7 {
+    color: #424553;
+    align-self: start;
+    margin: 81px 0 0 21px;
+    font: 700 20px/143% Assistant, sans-serif;
+  }
+  .div-8 {
+    font-family: Assistant, sans-serif;
+    align-items: start;
+    border: 1px solid #d4d5d9;
+    background-color: #fff;
+    margin-top: 25px;
+    justify-content: center;
+    color: #ff5722;
+    white-space: nowrap;
+    line-height: 20px;
+    padding: 15px 60px 15px 19px;
+  }
+  .div-9 {
+    color: #ff3c6f;
+    margin-top: 69px;
+    white-space: nowrap;
+    font: 13px/19px Assistant, sans-serif;
+  }
+  .div-10 {
+    font-family: Assistant, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff3f6c;
+    margin-top: 66px;
+    color: #fff;
+    font-weight: 700;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 114%;
+    padding: 16px 60px;
+  }
+  .div-11 {
+    color: #ff3f6c;
+    align-self: center;
+    margin-top: 69px;
+    white-space: nowrap;
+    font: 13px/19px Assistant, sans-serif;
+  }
+</style>

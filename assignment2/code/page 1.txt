@@ -1,0 +1,136 @@
+<div class="div">
+  <img
+    loading="lazy"
+    srcset="..."
+    class="img"
+  />
+  <div class="div-2">FULL NAME</div>
+  <div class="div-3"></div>
+  <div class="div-4">ENROLLNMENT NO</div>
+  <div class="div-5"></div>
+  <div class="div-6">PASSWORD</div>
+  <div class="div-7"></div>
+  <div class="div-8">ENTER CAPTCHA</div>
+  <div class="div-9">
+    <div class="div-10"></div>
+    <div class="div-11">
+      <div class="div-12">23DF6HJ</div>
+      <div class="div-13">FORGET PASSWORD</div>
+    </div>
+  </div>
+  <div class="div-14">SIGN IN</div>
+  <div class="div-15">SIGN UP</div>
+</div>
+<style>
+  .div {
+    background-color: #fff;
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    flex-direction: column;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 0 0 11px 14px;
+  }
+  .img {
+    aspect-ratio: 1.69;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+  }
+  .div-2 {
+    color: #000;
+    margin-top: 65px;
+    font: 24px Inter, sans-serif;
+  }
+  .div-3 {
+    background-color: #926a6a;
+    margin-top: 6px;
+    width: 415px;
+    max-width: 100%;
+    height: 58px;
+  }
+  .div-4 {
+    color: #000;
+    margin-top: 39px;
+    font: 24px Inter, sans-serif;
+  }
+  .div-5 {
+    background-color: rgba(141, 95, 95, 1);
+    width: 399px;
+    max-width: 100%;
+    height: 58px;
+    margin: 6px 13px 0 0;
+  }
+  .div-6 {
+    color: #000;
+    margin-top: 39px;
+    font: 24px Inter, sans-serif;
+  }
+  .div-7 {
+    background-color: rgba(141, 95, 95, 1);
+    width: 399px;
+    max-width: 100%;
+    height: 58px;
+    margin: 8px 13px 0 0;
+  }
+  .div-8 {
+    color: #000;
+    margin-top: 39px;
+    font: 24px Inter, sans-serif;
+  }
+  .div-9 {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    white-space: nowrap;
+    margin: 15px 12px 0 0;
+  }
+  .div-10 {
+    background-color: rgba(141, 95, 95, 1);
+    align-self: start;
+    width: 207px;
+    height: 58px;
+  }
+  .div-11 {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+  }
+  .div-12 {
+    background-color: rgba(141, 95, 95, 1);
+    justify-content: center;
+    color: #fff;
+    padding: 20px 42px;
+    font: 24px Inter, sans-serif;
+  }
+  .div-13 {
+    color: #000;
+    margin-top: 21px;
+    font: 20px Inter, sans-serif;
+  }
+  .div-14 {
+    background-color: rgba(0, 0, 0, 1);
+    width: 399px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    white-space: nowrap;
+    margin: 21px 13px 0 0;
+    padding: 16px 60px;
+    font: 24px Inter, sans-serif;
+  }
+  .div-15 {
+    background-color: rgba(0, 0, 0, 1);
+    width: 399px;
+    max-width: 100%;
+    align-items: center;
+    color: #fff;
+    white-space: nowrap;
+    margin: 8px 13px 0 0;
+    padding: 8px 60px 15px;
+    font: 24px Inter, sans-serif;
+  }
+</style>

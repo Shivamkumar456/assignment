@@ -1,0 +1,124 @@
+<div class="div">
+  <div class="div-2">
+    <img
+      loading="lazy"
+      srcset="..."
+      class="img"
+    />
+    <img
+      loading="lazy"
+      srcset="..."
+      class="img-2"
+    />
+  </div>
+  <div class="div-3">PLEASE ENTER BELOW FIELD</div>
+  <div class="div-4"></div>
+  <div class="div-5">USERNAME/ENROLLNMENT NO.</div>
+  <div class="div-6"></div>
+  <div class="div-7">PASSWORD</div>
+  <div class="div-8"></div>
+  <div class="div-9">ENTER CAPTCHA HERE</div>
+  <div class="div-10"></div>
+  <div class="div-11">FORGET PASSWORD</div>
+  <div class="div-12">SIGN UP</div>
+</div>
+<style>
+  .div {
+    display: flex;
+    max-width: 430px;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .div-2 {
+    disply: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    min-height: 241px;
+    width: 100%;
+    padding: 0 22px 11px 0;
+  }
+  .img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .img-2 {
+    aspect-ratio: 1.79;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+  }
+  .div-3 {
+    color: #000;
+    align-self: center;
+    margin-top: 18px;
+    font: 400 24px Inter, sans-serif;
+  }
+  .div-4 {
+    background-color: #000;
+    min-height: 1px;
+    margin-top: 22px;
+    width: 100%;
+  }
+  .div-5 {
+    color: #000;
+    align-self: start;
+    margin-top: 65px;
+    white-space: nowrap;
+    font: 400 20px Inter, sans-serif;
+  }
+  .div-6 {
+    background-color: #000;
+    min-height: 1px;
+    margin-top: 26px;
+    width: 100%;
+  }
+  .div-7 {
+    color: #000;
+    align-self: start;
+    margin-top: 74px;
+    font: 400 20px Inter, sans-serif;
+  }
+  .div-8 {
+    background-color: #000;
+    min-height: 1px;
+    margin-top: 18px;
+    width: 100%;
+  }
+  .div-9 {
+    color: #000;
+    align-self: start;
+    margin-top: 55px;
+    white-space: nowrap;
+    font: 400 20px Inter, sans-serif;
+  }
+  .div-10 {
+    background-color: #000;
+    min-height: 1px;
+    margin-top: 31px;
+    width: 100%;
+  }
+  .div-11 {
+    color: #000;
+    align-self: end;
+    white-space: nowrap;
+    margin: 21px 20px 0 0;
+    font: 400 20px Inter, sans-serif;
+  }
+  .div-12 {
+    background-color: rgba(8, 14, 66, 1);
+    align-self: center;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    white-space: nowrap;
+    padding: 12px 60px;
+    font: 400 24px Inter, sans-serif;
+  }
+</style>
